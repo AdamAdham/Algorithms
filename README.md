@@ -10,7 +10,7 @@ You are climbing a staircase. It takes n steps to reach the top.
 
 Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
 
---
+---
 
 ### [Pascal's Triangle](https://github.com/AdamAdham/Algorithms/blob/main/Pascal's%20Triangle.py)
 Given an integer numRows, return the first numRows of Pascal's triangle.
