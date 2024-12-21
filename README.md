@@ -17,3 +17,9 @@ Given an integer numRows, return the first numRows of Pascal's triangle.
 
 In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:<br>
 ![image](https://github.com/user-attachments/assets/d6ebb2a9-f321-4920-97a3-575eed5d94cd)
+
+### [119. Pascal's Triangle II](https://github.com/AdamAdham/Algorithms/blob/main/119.%20Pascal's%20Triangle%20II.py)
+Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle.
+
+In Pascal's triangle, each number is the sum of the two numbers directly above it as shown: <br>
+![image](https://github.com/user-attachments/assets/375e718b-11e0-4382-bfe1-410fe110c81b)
