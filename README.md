@@ -92,6 +92,14 @@ Given n, return the value of Tn.
 **Space Complexity**= O(1)
 
 
+## [1668. Maximum Repeating Substring](https://github.com/AdamAdham/Algorithms/blob/main/1668.%20Maximum%20Repeating%20Substring.py)
+For a string sequence, a string word is k-repeating if word concatenated k times is a substring of sequence. The word's maximum k-repeating value is the highest value k where word is k-repeating in sequence. If word is not a substring of sequence, word's maximum k-repeating value is 0.
+
+Given strings sequence and word, return the maximum k-repeating value of word in sequence.
+
+### Complexity
+**Time Complexity** = O(nm) n:len(sequence), m: len(word) <br>
+**Space Complexity**= O(1)
 
 ## Interesting Algorithms
 
