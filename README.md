@@ -35,6 +35,13 @@ A subsequence of a string is a new string that is formed from the original strin
 ### [509. Fibonacci Number](https://github.com/AdamAdham/Algorithms/blob/main/509.%20Fibonacci%20Number.py)
 The Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1.
 
+### [746. Min Cost Climbing Stairs](https://github.com/AdamAdham/Algorithms/blob/main/746.%20Min%20Cost%20Climbing%20Stairs.py)
+You are given an integer array cost where cost[i] is the cost of ith step on a staircase. Once you pay the cost, you can either climb one or two steps.
+
+You can either start from the step with index 0, or the step with index 1.
+
+Return the minimum cost to reach the top of the floor.
+
 ## Interesting Algorithms
 
 ### [Kadan's Algorithm](https://github.com/AdamAdham/Algorithms/blob/main/Kadane's%20Algorithm.py)
