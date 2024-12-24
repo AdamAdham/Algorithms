@@ -101,7 +101,7 @@ Given strings sequence and word, return the maximum k-repeating value of word in
 
 ## Easy
 
-## [1974. Minimum Time to Type Word Using Special Typewriter.py](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/1974.%20Minimum%20Time%20to%20Type%20Word%20Using%20Special%20Typewriter.py)
+## [1974. Minimum Time to Type Word Using Special Typewriter](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/1974.%20Minimum%20Time%20to%20Type%20Word%20Using%20Special%20Typewriter.py)
 
 There is a special typewriter with lowercase English letters 'a' to 'z' arranged in a circle with a pointer. A character can only be typed if the pointer is pointing to that character. The pointer is initially pointing to the character 'a'.
 
@@ -125,7 +125,7 @@ Given a string word, return the minimum number of seconds to type out the charac
 
 Do not calculate the counter clockwise way just do 26-clockwise
 
-## [2037. Minimum Number of Moves to Seat Everyone.py](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/2037.%20Minimum%20Number%20of%20Moves%20to%20Seat%20Everyone.py)
+## [2037. Minimum Number of Moves to Seat Everyone](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/2037.%20Minimum%20Number%20of%20Moves%20to%20Seat%20Everyone.py)
 
 There are n availabe seats and n students standing in a room. You are given an array seats of length n, where seats[i] is the position of the ith seat. You are also given the array students of length n, where students[j] is the position of the jth student.
 
@@ -139,6 +139,17 @@ Note that there may be multiple seats or students in the same position at the be
 ### Complexity
 
 **Time Complexity** = O(nlog(n)) (Sort time)<br>
+**Space Complexity**= O(1)
+
+## [2259. Remove Digit From Number to Maximize Result](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/2259.%20Remove%20Digit%20From%20Number%20to%20Maximize%20Result)
+
+You are given a string number representing a positive integer and a character digit.
+
+Return the resulting string after removing exactly one occurrence of digit from number such that the value of the resulting string in decimal form is maximized. The test cases are generated such that digit occurs at least once in number.
+
+### Complexity
+
+**Time Complexity** = O(n^2) (Outer loop=O(n), array slicing=O(n))<br>
 **Space Complexity**= O(1)
 
 ## Interesting Algorithms
