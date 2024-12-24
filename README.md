@@ -24,8 +24,12 @@ Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's
 In Pascal's triangle, each number is the sum of the two numbers directly above it as shown: <br>
 ![image](https://github.com/user-attachments/assets/375e718b-11e0-4382-bfe1-410fe110c81b)
 
+### [338. Counting Bits](https://github.com/AdamAdham/Algorithms/blob/main/338.%20Counting%20Bits.py)
+Given an integer n, return an array ans of length n + 1 such that for each i (0 <= i <= n), ans[i] is the number of 1's in the binary representation of i.
+
 
 ## Interesting Algorithms
 
 ### [Kadan's Algorithm](https://github.com/AdamAdham/Algorithms/blob/main/Kadane's%20Algorithm.py)
 Get maximum sum of a subarray
+
