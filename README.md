@@ -64,7 +64,17 @@ Formally, you need to find the longest subsequence of an array of indices [0, 1,
 Return the selected subsequence. If there are multiple answers, return any of them.
 
 Note: The elements in words are distinct.
- 
+
+### [1137. N-th Tribonacci Number](https://github.com/AdamAdham/Algorithms/blob/main/1137.%20N-th%20Tribonacci%20Number.py)
+The Tribonacci sequence Tn is defined as follows: 
+
+T0 = 0, T1 = 1, T2 = 1, and Tn+3 = Tn + Tn+1 + Tn+2 for n >= 0.
+
+Given n, return the value of Tn.
+
+**Time Complexity** = O(n) 
+**Space Complexity**= O(1)
+
 ## Interesting Algorithms
 
 ### [Kadan's Algorithm](https://github.com/AdamAdham/Algorithms/blob/main/Kadane's%20Algorithm.py)
