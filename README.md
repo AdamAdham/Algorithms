@@ -6,7 +6,7 @@
 
 ## Easy
 
-## [**Climbing Stairs**](https://github.com/AdamAdham/Algorithms/blob/main/Climb%20Stairs)
+## [**Climbing Stairs**](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/Climb%20Stairs)
 
 You are climbing a staircase. It takes n steps to reach the top.
 
@@ -101,7 +101,7 @@ Given strings sequence and word, return the maximum k-repeating value of word in
 
 ## Easy
 
-## [1974. Minimum Time to Type Word Using Special Typewriter.py](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy1974.%20Minimum%20Time%20to%20Type%20Word%20Using%20Special%20Typewriter.py)
+## [1974. Minimum Time to Type Word Using Special Typewriter.py](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/1974.%20Minimum%20Time%20to%20Type%20Word%20Using%20Special%20Typewriter.py)
 
 There is a special typewriter with lowercase English letters 'a' to 'z' arranged in a circle with a pointer. A character can only be typed if the pointer is pointing to that character. The pointer is initially pointing to the character 'a'.
 
@@ -124,6 +124,22 @@ Given a string word, return the minimum number of seconds to type out the charac
 ### Adjustments / Optimizations
 
 Do not calculate the counter clockwise way just do 26-clockwise
+
+## [2037. Minimum Number of Moves to Seat Everyone.py](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/2037.%20Minimum%20Number%20of%20Moves%20to%20Seat%20Everyone.py)
+
+There are n availabe seats and n students standing in a room. You are given an array seats of length n, where seats[i] is the position of the ith seat. You are also given the array students of length n, where students[j] is the position of the jth student.
+
+You may perform the following move any number of times:
+
+Increase or decrease the position of the ith student by 1 (i.e., moving the ith student from position x to x + 1 or x - 1)
+Return the minimum number of moves required to move each student to a seat such that no two students are in the same seat.
+
+Note that there may be multiple seats or students in the same position at the beginning.
+
+### Complexity
+
+**Time Complexity** = O(nlog(n)) (Sort time)<br>
+**Space Complexity**= O(1)
 
 ## Interesting Algorithms
 
