@@ -141,7 +141,7 @@ Note that there may be multiple seats or students in the same position at the be
 **Time Complexity** = O(nlog(n)) (Sort time)<br>
 **Space Complexity**= O(1)
 
-## [2259. Remove Digit From Number to Maximize Result](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/2259.%20Remove%20Digit%20From%20Number%20to%20Maximize%20Result)
+## [2259. Remove Digit From Number to Maximize Result](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/2259.%20Remove%20Digit%20From%20Number%20to%20Maximize%20Result.py)
 
 You are given a string number representing a positive integer and a character digit.
 
