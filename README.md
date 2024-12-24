@@ -27,6 +27,13 @@ In Pascal's triangle, each number is the sum of the two numbers directly above i
 ### [338. Counting Bits](https://github.com/AdamAdham/Algorithms/blob/main/338.%20Counting%20Bits.py)
 Given an integer n, return an array ans of length n + 1 such that for each i (0 <= i <= n), ans[i] is the number of 1's in the binary representation of i.
 
+### [392. Is Subsequence](https://github.com/AdamAdham/Algorithms/blob/main/392.%20Is%20Subsequence.py)
+Given two strings s and t, return true if s is a subsequence of t, or false otherwise.
+
+A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not).
+
+### [509. Fibonacci Number](https://github.com/AdamAdham/Algorithms/blob/main/509.%20Fibonacci%20Number.py)
+The Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1.
 
 ## Interesting Algorithms
 
