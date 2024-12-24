@@ -102,6 +102,29 @@ Given strings sequence and word, return the maximum k-repeating value of word in
 **Time Complexity** = O(nm) n:len(sequence), m: len(word) <br>
 **Space Complexity**= O(n)
 
+# Greedy
+## Easy
+## [1974. Minimum Time to Type Word Using Special Typewriter.py](https://github.com/AdamAdham/Algorithms/blob/main/1974.%20Minimum%20Time%20to%20Type%20Word%20Using%20Special%20Typewriter.py)
+There is a special typewriter with lowercase English letters 'a' to 'z' arranged in a circle with a pointer. A character can only be typed if the pointer is pointing to that character. The pointer is initially pointing to the character 'a'.
+
+<br>
+
+![image](https://github.com/user-attachments/assets/aec2fcf5-9954-4f4a-9e4a-e12a0b9f574b) 
+<br>
+
+Each second, you may perform one of the following operations:
+
+Move the pointer one character counterclockwise or clockwise.
+Type the character the pointer is currently on.
+Given a string word, return the minimum number of seconds to type out the characters in word.
+
+### Complexity
+**Time Complexity** = O(n) <br>
+**Space Complexity**= O(1)
+
+### Adjustments / Optimizations
+Do not calculate the counter clockwise way just do 26-clockwise
+
 ## Interesting Algorithms
 
 ### [Kadan's Algorithm](https://github.com/AdamAdham/Algorithms/blob/main/Kadane's%20Algorithm.py)
