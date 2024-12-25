@@ -116,7 +116,7 @@ Given an integer array nums, find the subarray with the largest sum, and return 
 **Time Complexity** = O(n)<br>
 **Space Complexity**= O(1)
 
-## [1143. Longest Common Subsequence](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Non-Leetcode/1143.%20Longest%20Common%20Subsequence.py)
+## [1143. Longest Common Subsequence](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Medium/1143.%20Longest%20Common%20Subsequence.py)
 
 Given two strings text1 and text2, return the length of their longest common subsequence. If there is no common subsequence, return 0.
 
