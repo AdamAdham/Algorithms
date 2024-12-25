@@ -97,6 +97,17 @@ Given strings sequence and word, return the maximum k-repeating value of word in
 **Time Complexity** = O(nm) n:len(sequence), m: len(word) <br>
 **Space Complexity**= O(n)
 
+## Medium
+
+## [2383. Minimum Hours of Training to Win a Competition](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Medium/53.%20Maximum%20Subarray.py)
+
+Given an integer array nums, find the subarray with the largest sum, and return its sum.
+
+### Complexity
+
+**Time Complexity** = O(n)<br>
+**Space Complexity**= O(1)
+
 # Greedy
 
 ## Easy
@@ -152,8 +163,64 @@ Return the resulting string after removing exactly one occurrence of digit from 
 **Time Complexity** = O(n^2) (Outer loop=O(n), array slicing=O(n))<br>
 **Space Complexity**= O(1)
 
-## Interesting Algorithms
+## [2591. Distribute Money to Maximum Children](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/2591.%20Distribute%20Money%20to%20Maximum%20Children.py)
 
-### [Kadan's Algorithm](https://github.com/AdamAdham/Algorithms/blob/main/Kadane's%20Algorithm.py)
+You are given an integer money denoting the amount of money (in dollars) that you have and another integer children denoting the number of children that you must distribute the money to.
+
+You have to distribute the money according to the following rules:
+
+All money must be distributed.
+Everyone must receive at least 1 dollar.
+Nobody receives 4 dollars.
+Return the maximum number of children who may receive exactly 8 dollars if you distribute the money according to the aforementioned rules. If there is no way to distribute the money, return -1.
+
+### Complexity
+
+**Time Complexity** = O(1)<br>
+**Space Complexity**= O(1)
+
+## [2591. Distribute Money to Maximum Children](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/605.%20Can%20Place%20Flowers.py)
+
+You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in adjacent plots.
+
+Given an integer array flowerbed containing 0's and 1's, where 0 means empty and 1 means not empty, and an integer n, return true if n new flowers can be planted in the flowerbed without violating the no-adjacent-flowers rule and false otherwise.
+
+### Complexity
+
+**Time Complexity** = O(n)<br>
+**Space Complexity**= O(1)
+
+## [2383. Minimum Hours of Training to Win a Competition](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/2383.%20Minimum%20Hours%20of%20Training%20to%20Win%20a%20Competition.py)
+
+You are entering a competition, and are given two positive integers initialEnergy and initialExperience denoting your initial energy and initial experience respectively.
+
+You are also given two 0-indexed integer arrays energy and experience, both of length n.
+
+You will face n opponents in order. The energy and experience of the ith opponent is denoted by energy[i] and experience[i] respectively. When you face an opponent, you need to have both strictly greater experience and energy to defeat them and move to the next opponent if available.
+
+Defeating the ith opponent increases your experience by experience[i], but decreases your energy by energy[i].
+
+Before starting the competition, you can train for some number of hours. After each hour of training, you can either choose to increase your initial experience by one, or increase your initial energy by one.
+
+Return the minimum number of training hours required to defeat all n opponents.
+
+### Complexity
+
+**Time Complexity** = O(n)<br>
+**Space Complexity**= O(1)
+
+# Non-Leetcode
+
+## [Longest Common Subsequence](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Non-Leetcode/Longest%20Common%20Subsequence.py)
+
+Given two sequences, find the length of the longest common subsequence (LCS) present in it. The LCS is the longest sequence which can be obtained from the first sequence by deleting some items and from the second sequence by deleting other items.
+
+Input: X = 'ABCBDAB', Y = 'BDCABA'
+Output: 4
+Explanation: The LCS are 'BDAB', 'BCAB', and 'BCBA', having length 4.
+
+# Interesting Algorithms
+
+## [Kadan's Algorithm](https://github.com/AdamAdham/Algorithms/blob/main/Kadane's%20Algorithm.py)
 
 Get maximum sum of a subarray
