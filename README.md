@@ -4,6 +4,14 @@
 
 # Dynamic Programming (DP)
 
+## Intuition Behind Solving
+
+1. Get base case (edge cases like current=0, current=1, current=n etc)
+2. Assume that f[current-1] is solved
+3. Then what to do with f[current-1] to formulate the f[current]
+
+Same intuition of prove by induction
+
 ## Easy
 
 ## [**Climbing Stairs**](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/Climb%20Stairs.py)
@@ -107,6 +115,20 @@ Given an integer array nums, find the subarray with the largest sum, and return 
 
 **Time Complexity** = O(n)<br>
 **Space Complexity**= O(1)
+
+## [1143. Longest Common Subsequence](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Non-Leetcode/1143.%20Longest%20Common%20Subsequence.py)
+
+Given two strings text1 and text2, return the length of their longest common subsequence. If there is no common subsequence, return 0.
+
+A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
+
+For example, "ace" is a subsequence of "abcde".
+A common subsequence of two strings is a subsequence that is common to both strings.
+
+### Complexity
+
+**Time Complexity** = O(n^2)<br>
+**Space Complexity**= O(n^2)
 
 # Greedy
 
@@ -212,19 +234,6 @@ Return the minimum number of training hours required to defeat all n opponents.
 # Non-Leetcode
 
 # Dynamic Programming
-
-## [Longest Common Subsequence](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Non-Leetcode/Longest%20Common%20Subsequence.py)
-
-Given two sequences, find the length of the longest common subsequence (LCS) present in it. The LCS is the longest sequence which can be obtained from the first sequence by deleting some items and from the second sequence by deleting other items.
-
-Input: X = 'ABCBDAB', Y = 'BDCABA'
-Output: 4
-Explanation: The LCS are 'BDAB', 'BCAB', and 'BCBA', having length 4.
-
-### Complexity
-
-**Time Complexity** = O(n^2)<br>
-**Space Complexity**= O(n^2)
 
 # Interesting Algorithms
 
