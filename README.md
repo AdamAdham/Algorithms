@@ -211,6 +211,8 @@ Return the minimum number of training hours required to defeat all n opponents.
 
 # Non-Leetcode
 
+# Dynamic Programming
+
 ## [Longest Common Subsequence](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Non-Leetcode/Longest%20Common%20Subsequence.py)
 
 Given two sequences, find the length of the longest common subsequence (LCS) present in it. The LCS is the longest sequence which can be obtained from the first sequence by deleting some items and from the second sequence by deleting other items.
@@ -218,6 +220,11 @@ Given two sequences, find the length of the longest common subsequence (LCS) pre
 Input: X = 'ABCBDAB', Y = 'BDCABA'
 Output: 4
 Explanation: The LCS are 'BDAB', 'BCAB', and 'BCBA', having length 4.
+
+### Complexity
+
+**Time Complexity** = O(n^2)<br>
+**Space Complexity**= O(n^2)
 
 # Interesting Algorithms
 
