@@ -6,7 +6,7 @@
 
 ## Easy
 
-## [**Climbing Stairs**](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/Climb%20Stairs)
+## [**Climbing Stairs**](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/Climb%20Stairs.py)
 
 You are climbing a staircase. It takes n steps to reach the top.
 
