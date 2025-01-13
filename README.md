@@ -14,41 +14,41 @@ Same intuition of prove by induction
 
 ## Easy
 
-## [**Climbing Stairs**](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/Climb%20Stairs.py)
+### [**Climbing Stairs**](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/Climb%20Stairs.py)
 
 You are climbing a staircase. It takes n steps to reach the top.
 
 Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
 
-## [Pascal's Triangle](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/Pascal's%20Triangle.py)
+### [Pascal's Triangle](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/Pascal's%20Triangle.py)
 
 Given an integer numRows, return the first numRows of Pascal's triangle.
 
 In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:<br>
 ![image](https://github.com/user-attachments/assets/d6ebb2a9-f321-4920-97a3-575eed5d94cd)
 
-## [119. Pascal's Triangle II](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/119.%20Pascal's%20Triangle%20II.py)
+### [119. Pascal's Triangle II](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/119.%20Pascal's%20Triangle%20II.py)
 
 Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle.
 
 In Pascal's triangle, each number is the sum of the two numbers directly above it as shown: <br>
 ![image](https://github.com/user-attachments/assets/375e718b-11e0-4382-bfe1-410fe110c81b)
 
-## [338. Counting Bits](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/338.%20Counting%20Bits.py)
+### [338. Counting Bits](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/338.%20Counting%20Bits.py)
 
 Given an integer n, return an array ans of length n + 1 such that for each i (0 <= i <= n), ans[i] is the number of 1's in the binary representation of i.
 
-## [392. Is Subsequence](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/392.%20Is%20Subsequence.py)
+### [392. Is Subsequence](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/392.%20Is%20Subsequence.py)
 
 Given two strings s and t, return true if s is a subsequence of t, or false otherwise.
 
 A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not).
 
-## [509. Fibonacci Number](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/509.%20Fibonacci%20Number.py)
+### [509. Fibonacci Number](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/509.%20Fibonacci%20Number.py)
 
 The Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1.
 
-## [746. Min Cost Climbing Stairs](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/746.%20Min%20Cost%20Climbing%20Stairs.py)
+### [746. Min Cost Climbing Stairs](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/746.%20Min%20Cost%20Climbing%20Stairs.py)
 
 You are given an integer array cost where cost[i] is the cost of ith step on a staircase. Once you pay the cost, you can either climb one or two steps.
 
@@ -56,7 +56,7 @@ You can either start from the step with index 0, or the step with index 1.
 
 Return the minimum cost to reach the top of the floor.
 
-## [1025. Divisor Game](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/1025.%20Divisor%20Game.py)
+### [1025. Divisor Game](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/1025.%20Divisor%20Game.py)
 
 Alice and Bob take turns playing a game, with Alice starting first.
 
@@ -68,7 +68,7 @@ Also, if a player cannot make a move, they lose the game.
 
 Return true if and only if Alice wins the game, assuming both players play optimally.
 
-## [2900. Longest Unequal Adjacent Groups Subsequence I](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/2900.%20Longest%20Unequal%20Adjacent%20Groups%20Subsequence.py)
+### [2900. Longest Unequal Adjacent Groups Subsequence I](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/2900.%20Longest%20Unequal%20Adjacent%20Groups%20Subsequence.py)
 
 You are given a string array words and a binary array groups both of length n, where words[i] is associated with groups[i].
 
@@ -80,7 +80,7 @@ Return the selected subsequence. If there are multiple answers, return any of th
 
 Note: The elements in words are distinct.
 
-## [1137. N-th Tribonacci Number](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/1137.%20N-th%20Tribonacci%20Number.py)
+### [1137. N-th Tribonacci Number](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/1137.%20N-th%20Tribonacci%20Number.py)
 
 The Tribonacci sequence Tn is defined as follows:
 
@@ -88,35 +88,29 @@ T0 = 0, T1 = 1, T2 = 1, and Tn+3 = Tn + Tn+1 + Tn+2 for n >= 0.
 
 Given n, return the value of Tn.
 
-### Complexity
-
 **Time Complexity** = O(n) <br>
 **Space Complexity**= O(1)
 
-## [1668. Maximum Repeating Substring](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/1668.%20Maximum%20Repeating%20Substring.py)
+### [1668. Maximum Repeating Substring](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Easy/1668.%20Maximum%20Repeating%20Substring.py)
 
 Revise this
 For a string sequence, a string word is k-repeating if word concatenated k times is a substring of sequence. The word's maximum k-repeating value is the highest value k where word is k-repeating in sequence. If word is not a substring of sequence, word's maximum k-repeating value is 0.
 
 Given strings sequence and word, return the maximum k-repeating value of word in sequence.
 
-### Complexity
-
-**Time Complexity** = O(nm) n:len(sequence), m: len(word) <br>
+**Time Complexity** = $O(nm) \quad n:len(sequence) \quad m: len(word)$ <br>
 **Space Complexity**= O(n)
 
 ## Medium
 
-## [2383. Minimum Hours of Training to Win a Competition](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Medium/53.%20Maximum%20Subarray.py)
+### [2383. Minimum Hours of Training to Win a Competition](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Medium/53.%20Maximum%20Subarray.py)
 
 Given an integer array nums, find the subarray with the largest sum, and return its sum.
-
-### Complexity
 
 **Time Complexity** = O(n)<br>
 **Space Complexity**= O(1)
 
-## [1143. Longest Common Subsequence](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Medium/1143.%20Longest%20Common%20Subsequence.py)
+### [1143. Longest Common Subsequence](https://github.com/AdamAdham/Algorithms/blob/main/Dynamic%20Programming/Medium/1143.%20Longest%20Common%20Subsequence.py)
 
 Given two strings text1 and text2, return the length of their longest common subsequence. If there is no common subsequence, return 0.
 
@@ -125,10 +119,8 @@ A subsequence of a string is a new string generated from the original string wit
 For example, "ace" is a subsequence of "abcde".
 A common subsequence of two strings is a subsequence that is common to both strings.
 
-### Complexity
-
-**Time Complexity** = O(n^2)<br>
-**Space Complexity**= O(n^2)
+**Time Complexity** = $O(n^2)$<br>
+**Space Complexity**= $O(n^2)$
 
 # Greedy
 
@@ -149,8 +141,6 @@ Move the pointer one character counterclockwise or clockwise.
 Type the character the pointer is currently on.
 Given a string word, return the minimum number of seconds to type out the characters in word.
 
-#### Complexity
-
 **Time Complexity** = O(n) <br>
 **Space Complexity**= O(1)
 
@@ -158,7 +148,7 @@ Given a string word, return the minimum number of seconds to type out the charac
 
 Do not calculate the counter clockwise way just do 26-clockwise
 
-## [2037. Minimum Number of Moves to Seat Everyone](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/2037.%20Minimum%20Number%20of%20Moves%20to%20Seat%20Everyone.py)
+### [2037. Minimum Number of Moves to Seat Everyone](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/2037.%20Minimum%20Number%20of%20Moves%20to%20Seat%20Everyone.py)
 
 There are n availabe seats and n students standing in a room. You are given an array seats of length n, where seats[i] is the position of the ith seat. You are also given the array students of length n, where students[j] is the position of the jth student.
 
@@ -169,23 +159,19 @@ Return the minimum number of moves required to move each student to a seat such 
 
 Note that there may be multiple seats or students in the same position at the beginning.
 
-### Complexity
-
 **Time Complexity** = O(nlog(n)) (Sort time)<br>
 **Space Complexity**= O(1)
 
-## [2259. Remove Digit From Number to Maximize Result](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/2259.%20Remove%20Digit%20From%20Number%20to%20Maximize%20Result.py)
+### [2259. Remove Digit From Number to Maximize Result](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/2259.%20Remove%20Digit%20From%20Number%20to%20Maximize%20Result.py)
 
 You are given a string number representing a positive integer and a character digit.
 
 Return the resulting string after removing exactly one occurrence of digit from number such that the value of the resulting string in decimal form is maximized. The test cases are generated such that digit occurs at least once in number.
 
-### Complexity
-
 **Time Complexity** = O(n^2) (Outer loop=O(n), array slicing=O(n))<br>
 **Space Complexity**= O(1)
 
-## [2591. Distribute Money to Maximum Children](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/2591.%20Distribute%20Money%20to%20Maximum%20Children.py)
+### [2591. Distribute Money to Maximum Children](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/2591.%20Distribute%20Money%20to%20Maximum%20Children.py)
 
 You are given an integer money denoting the amount of money (in dollars) that you have and another integer children denoting the number of children that you must distribute the money to.
 
@@ -196,8 +182,6 @@ Everyone must receive at least 1 dollar.
 Nobody receives 4 dollars.
 Return the maximum number of children who may receive exactly 8 dollars if you distribute the money according to the aforementioned rules. If there is no way to distribute the money, return -1.
 
-### Complexity
-
 **Time Complexity** = O(1)<br>
 **Space Complexity**= O(1)
 
@@ -207,12 +191,10 @@ You have a long flowerbed in which some of the plots are planted, and some are n
 
 Given an integer array flowerbed containing 0's and 1's, where 0 means empty and 1 means not empty, and an integer n, return true if n new flowers can be planted in the flowerbed without violating the no-adjacent-flowers rule and false otherwise.
 
-### Complexity
-
 **Time Complexity** = O(n)<br>
 **Space Complexity**= O(1)
 
-## [2383. Minimum Hours of Training to Win a Competition](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/2383.%20Minimum%20Hours%20of%20Training%20to%20Win%20a%20Competition.py)
+### [2383. Minimum Hours of Training to Win a Competition](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/2383.%20Minimum%20Hours%20of%20Training%20to%20Win%20a%20Competition.py)
 
 You are entering a competition, and are given two positive integers initialEnergy and initialExperience denoting your initial energy and initial experience respectively.
 
@@ -225,8 +207,6 @@ Defeating the ith opponent increases your experience by experience[i], but decre
 Before starting the competition, you can train for some number of hours. After each hour of training, you can either choose to increase your initial experience by one, or increase your initial energy by one.
 
 Return the minimum number of training hours required to defeat all n opponents.
-
-### Complexity
 
 **Time Complexity** = O(n)<br>
 **Space Complexity**= O(1)
@@ -235,21 +215,34 @@ Return the minimum number of training hours required to defeat all n opponents.
 
 ## Easy
 
-## [2383. Minimum Hours of Training to Win a Competition](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/2383.%20Minimum%20Hours%20of%20Training%20to%20Win%20a%20Competition.py)
+### [27. Remove Element](https://github.com/AdamAdham/Algorithms/blob/main/Top%20Interview%Questions/Easy/27.%20Remove%20Element.py)
 
-You are entering a competition, and are given two positive integers initialEnergy and initialExperience denoting your initial energy and initial experience respectively.
+Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
 
-You are also given two 0-indexed integer arrays energy and experience, both of length n.
+Consider the number of elements in nums which are not equal to val be k, to get accepted, you need to do the following things:
 
-You will face n opponents in order. The energy and experience of the ith opponent is denoted by energy[i] and experience[i] respectively. When you face an opponent, you need to have both strictly greater experience and energy to defeat them and move to the next opponent if available.
+Change the array nums such that the first k elements of nums contain the elements which are not equal to val. The remaining elements of nums are not important as well as the size of nums.
+Return k.
+Custom Judge:
 
-Defeating the ith opponent increases your experience by experience[i], but decreases your energy by energy[i].
+The judge will test your solution with the following code:
 
-Before starting the competition, you can train for some number of hours. After each hour of training, you can either choose to increase your initial experience by one, or increase your initial energy by one.
+```python
+int[] nums = [...]; // Input array
+int val = ...; // Value to remove
+int[] expectedNums = [...]; // The expected answer with correct length.
+                            // It is sorted with no values equaling val.
 
-Return the minimum number of training hours required to defeat all n opponents.
+int k = removeElement(nums, val); // Calls your implementation
 
-### Complexity
+assert k == expectedNums.length;
+sort(nums, 0, k); // Sort the first k elements of nums
+for (int i = 0; i < actualLength; i++) {
+    assert nums[i] == expectedNums[i];
+}
+```
+
+If all assertions pass, then your solution will be accepted.
 
 **Time Complexity** = O(n)<br>
 **Space Complexity**= O(1)
