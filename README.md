@@ -7,7 +7,7 @@
 ## Intuition Behind Solving
 
 1. Get base case (edge cases like current=0, current=1, current=n etc)
-2. Assume that f[current-1] is solved
+2. Assume that f[current-1] is solved (sometimes all of f[0:current] current exclusive (like longest increasing subsequence))
 3. Then what to do with f[current-1] to formulate the f[current]
 
 Same intuition of prove by induction
@@ -134,7 +134,7 @@ A common subsequence of two strings is a subsequence that is common to both stri
 
 ## Easy
 
-## [1974. Minimum Time to Type Word Using Special Typewriter](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/1974.%20Minimum%20Time%20to%20Type%20Word%20Using%20Special%20Typewriter.py)
+### [1974. Minimum Time to Type Word Using Special Typewriter](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/1974.%20Minimum%20Time%20to%20Type%20Word%20Using%20Special%20Typewriter.py)
 
 There is a special typewriter with lowercase English letters 'a' to 'z' arranged in a circle with a pointer. A character can only be typed if the pointer is pointing to that character. The pointer is initially pointing to the character 'a'.
 
@@ -149,12 +149,12 @@ Move the pointer one character counterclockwise or clockwise.
 Type the character the pointer is currently on.
 Given a string word, return the minimum number of seconds to type out the characters in word.
 
-### Complexity
+#### Complexity
 
 **Time Complexity** = O(n) <br>
 **Space Complexity**= O(1)
 
-### Adjustments / Optimizations
+#### Adjustments / Optimizations
 
 Do not calculate the counter clockwise way just do 26-clockwise
 
@@ -231,9 +231,28 @@ Return the minimum number of training hours required to defeat all n opponents.
 **Time Complexity** = O(n)<br>
 **Space Complexity**= O(1)
 
-# Non-Leetcode
+# Top Interview Questions
 
-# Dynamic Programming
+## Easy
+
+## [2383. Minimum Hours of Training to Win a Competition](https://github.com/AdamAdham/Algorithms/blob/main/Greedy/Easy/2383.%20Minimum%20Hours%20of%20Training%20to%20Win%20a%20Competition.py)
+
+You are entering a competition, and are given two positive integers initialEnergy and initialExperience denoting your initial energy and initial experience respectively.
+
+You are also given two 0-indexed integer arrays energy and experience, both of length n.
+
+You will face n opponents in order. The energy and experience of the ith opponent is denoted by energy[i] and experience[i] respectively. When you face an opponent, you need to have both strictly greater experience and energy to defeat them and move to the next opponent if available.
+
+Defeating the ith opponent increases your experience by experience[i], but decreases your energy by energy[i].
+
+Before starting the competition, you can train for some number of hours. After each hour of training, you can either choose to increase your initial experience by one, or increase your initial energy by one.
+
+Return the minimum number of training hours required to defeat all n opponents.
+
+### Complexity
+
+**Time Complexity** = O(n)<br>
+**Space Complexity**= O(1)
 
 # Interesting Algorithms
 
