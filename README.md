@@ -215,7 +215,7 @@ Return the minimum number of training hours required to defeat all n opponents.
 
 ## Easy
 
-### [27. Remove Element](https://github.com/AdamAdham/Algorithms/blob/main/Top%20Interview%Questions/Easy/27.%20Remove%20Element.py)
+### [27. Remove Element](https://github.com/AdamAdham/Algorithms/blob/main/Top%20Interview%20Questions/Easy/27.%20Remove%20Element.py)
 
 Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
 
@@ -247,7 +247,7 @@ If all assertions pass, then your solution will be accepted.
 **Time Complexity** = O(n)<br>
 **Space Complexity**= O(1)
 
-### [26. Remove Duplicates from Sorted Array](https://github.com/AdamAdham/Algorithms/blob/main/Top%20Interview%Questions/Easy/26.%20Remove%20Duplicates%20from%20Sorted%20Array.py)
+### [26. Remove Duplicates from Sorted Array](https://github.com/AdamAdham/Algorithms/blob/main/Top%20Interview%20Questions/Easy/26.%20Remove%20Duplicates%20from%20Sorted%20Array.py)
 
 Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
 
