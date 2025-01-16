@@ -329,7 +329,143 @@ Output: 7, nums = [0,0,1,1,2,3,3,_,_]
 Explanation: Your function should return k = 7, with the first seven elements of nums being 0, 0, 1, 1, 2, 3 and 3 respectively.
 It does not matter what you leave beyond the returned k (hence they are underscores).
 
+**Time Complexity** = O(n)<br>
+**Space Complexity**= O(1)
+
+### [88. Merge Sorted Array](https://github.com/AdamAdham/Algorithms/blob/main/Top%20Interview%20Questions/Medium/88.%20Merge%20Sorted%20Array.java)
+
+You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
+
+Merge nums1 and nums2 into a single array sorted in non-decreasing order.
+
+The final sorted array should not be returned by the function, but instead be stored inside the array nums1. To accommodate this, nums1 has a length of m + n, where the first m elements denote the elements that should be merged, and the last n elements are set to 0 and should be ignored. nums2 has a length of n.
+
+Example 1:
+
+Input: nums1 = [1,2,3,0,0,0], m = 3, nums2 = [2,5,6], n = 3
+Output: [1,2,2,3,5,6]
+Explanation: The arrays we are merging are [1,2,3] and [2,5,6].
+The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
+Example 2:
+
+Input: nums1 = [1], m = 1, nums2 = [], n = 0
+Output: [1]
+Explanation: The arrays we are merging are [1] and [].
+The result of the merge is [1].
+Example 3:
+
+Input: nums1 = [0], m = 0, nums2 = [1], n = 1
+Output: [1]
+Explanation: The arrays we are merging are [] and [1].
+The result of the merge is [1].
+Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
+
+**Time Complexity** = O(n+m)<br>
+**Space Complexity**= O(n+m)
+
+### [122. Best Time to Buy and Sell Stock II](https://github.com/AdamAdham/Algorithms/blob/main/Top%20Interview%20Questions/Medium/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.py)
+
+You are given an integer array prices where prices[i] is the price of a given stock on the ith day.
+
+On each day, you may decide to buy and/or sell the stock. You can only hold at most one share of the stock at any time. However, you can buy it then immediately sell it on the same day.
+
+Find and return the maximum profit you can achieve.
+
+Example 1:
+
+Input: prices = [7,1,5,3,6,4]
+Output: 7
+Explanation: Buy on day 2 (price = 1) and sell on day 3 (price = 5), profit = 5-1 = 4.
+Then buy on day 4 (price = 3) and sell on day 5 (price = 6), profit = 6-3 = 3.
+Total profit is 4 + 3 = 7.
+Example 2:
+
+Input: prices = [1,2,3,4,5]
+Output: 4
+Explanation: Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-1 = 4.
+Total profit is 4.
+Example 3:
+
+Input: prices = [7,6,4,3,1]
+Output: 0
+Explanation: There is no way to make a positive profit, so we never buy the stock to achieve the maximum profit of 0.
+
+**Time Complexity** = O(n)<br>
+**Space Complexity**= O(1)
+
 # Interesting Algorithms
+
+### [189. Rotate Array](https://github.com/AdamAdham/Algorithms/blob/main/Top%20Interview%20Questions/Medium/189.%20Rotate%20Array.py)
+
+Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
+
+Example 1:
+
+Input: nums = [1,2,3,4,5,6,7], k = 3
+Output: [5,6,7,1,2,3,4]
+Explanation:
+rotate 1 steps to the right: [7,1,2,3,4,5,6]
+rotate 2 steps to the right: [6,7,1,2,3,4,5]
+rotate 3 steps to the right: [5,6,7,1,2,3,4]
+Example 2:
+
+Input: nums = [-1,-100,3,99], k = 2
+Output: [3,99,-1,-100]
+Explanation:
+rotate 1 steps to the right: [99,-1,-100,3]
+rotate 2 steps to the right: [3,99,-1,-100]
+
+#### Intuition
+
+This post assumes you have already explored the reversing based solution which pretty much says:
+For k=2
+12345 -> 54321
+54321->45321
+45321->45123
+
+So why does this work?
+
+Let us understand the significance of k. k is nothing but a pivot point.
+What this means is, in case of 12345 with k = 2, your pivot point lies at 123|45.
+
+We want to rotate the entity along the pivot point. For simplicity let us denote either sides of pivot point as single entities as X|Y where X = 123 and Y = 45.
+
+When we are done rotating the aggregate entity it looks something like Y|X.
+Let us now understand why this tranlates to reversing the entire array. The crucial thing we will try to understand here is why irrespective of where the pivot point lies, we alwasys have to reverse the array.
+
+The answer for this is irrespective of where you keep the pivot point the reverse always fetches the same result. Let us try to understand this. When we say reverse by default we mean mirror from the mid point.
+
+12|34 -> 43|21
+
+But what else is possible? Does it still fetch the same result when mirror point is changed? Let's observe
+
+1|234 -> 432|1
+
+Wow, why did this happen? We can understand this by adding additional padding on the lighter side and always positioning the mirror at the center. The same string can be returned as:
+
+001|234 -> 432|100
+
+You can alwasys balance the sides with padding resulting in the same result. So complete reverse across any pivot points fetches the same result. That is all character end up changing sides. Think about it.
+
+Now that we have converted X|Y to Y'|X', we know in the process we ended of mirroring contents of X and Y as well.
+Where Y' means Y reverse
+and X' means X reverse
+So in the next step we mirror them back to get the same configuration like below.
+
+In reverse 1, X transformed this way 123 -> 321, we do not desire this transformation.
+So to fix it we use:
+Mirror(reverse)+Mirror(reverse) -> Original
+
+So we reverse X and Y individually again.
+So X again transforms 321 -> 123
+
+And we get our answer 123|45 -> 45|123
+
+Hope this was helpful. Happy learning :)
+Thanks to [kooskoos](https://leetcode.com/u/kooskoos/)
+
+**Time Complexity** = O(n)<br>
+**Space Complexity**= O(1)
 
 ## [Kadan's Algorithm](https://github.com/AdamAdham/Algorithms/blob/main/Kadane's%20Algorithm.py)
 
