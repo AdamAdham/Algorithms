@@ -247,6 +247,8 @@ If all assertions pass, then your solution will be accepted.
 **Time Complexity** = O(n)<br>
 **Space Complexity**= O(1)
 
+### [169. Majority Element](https://github.com/AdamAdham/Algorithms/blob/main/Top%20Interview%20Questions/Medium/169.%20Majority%20Element.py)
+
 ### [26. Remove Duplicates from Sorted Array](https://github.com/AdamAdham/Algorithms/blob/main/Top%20Interview%20Questions/Easy/26.%20Remove%20Duplicates%20from%20Sorted%20Array.py)
 
 Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
@@ -285,6 +287,26 @@ Input: nums = [0,0,1,1,1,2,2,3,3,4]
 Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
 Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
 It does not matter what you leave beyond the returned k (hence they are underscores).
+
+**Time Complexity** = O(n)<br>
+**Space Complexity**= O(1)
+
+### [169. Majority Element](https://github.com/AdamAdham/Algorithms/blob/main/Top%20Interview%20Questions/Medium/169.%20Majority%20Element.py)
+
+#### Could not solve alone
+
+Given an array nums of size n, return the majority element.
+
+The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
+
+Example 1:
+
+Input: nums = [3,2,3]
+Output: 3
+Example 2:
+
+Input: nums = [2,2,1,1,1,2,2]
+Output: 2
 
 **Time Complexity** = O(n)<br>
 **Space Complexity**= O(1)
@@ -393,9 +415,9 @@ Explanation: There is no way to make a positive profit, so we never buy the stoc
 **Time Complexity** = O(n)<br>
 **Space Complexity**= O(1)
 
-# Interesting Algorithms
-
 ### [189. Rotate Array](https://github.com/AdamAdham/Algorithms/blob/main/Top%20Interview%20Questions/Medium/189.%20Rotate%20Array.py)
+
+#### Could not solve alone
 
 Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
 
@@ -466,6 +488,8 @@ Thanks to [kooskoos](https://leetcode.com/u/kooskoos/)
 
 **Time Complexity** = O(n)<br>
 **Space Complexity**= O(1)
+
+# Interesting Algorithms
 
 ## [Kadan's Algorithm](https://github.com/AdamAdham/Algorithms/blob/main/Kadane's%20Algorithm.py)
 

@@ -22,4 +22,4 @@ intv_easy = ["Top Interview Questions","Easy"]
 intv_med = ["Top Interview Questions","Medium"]
 intv_hard = ["Top Interview Questions","Hard"]
 
-print(format_header(header_number,base_url,intv_med,"122. Best Time to Buy and Sell Stock II"))
+print(format_header(header_number,base_url,intv_med,"169. Majority Element"))
