@@ -22,4 +22,4 @@ intv_easy = ["Top Interview Questions","Easy"]
 intv_med = ["Top Interview Questions","Medium"]
 intv_hard = ["Top Interview Questions","Hard"]
 
-print(format_header(header_number,base_url,intv_med,"169. Majority Element"))
+print(format_header(header_number,base_url,intv_med,"380. Insert Delete GetRandom O(1)"))
