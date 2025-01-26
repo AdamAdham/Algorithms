@@ -526,6 +526,26 @@ There will be at least one element in the data structure when getRandom is calle
 **Time Complexity** = O(1)<br>
 **Space Complexity**= O(n)
 
+### [55. Jump Game](https://github.com/AdamAdham/Algorithms/blob/main/Top%20Interview%20Questions/Medium/55.%20Jump%20Game.py)
+
+You are given an integer array nums. You are initially positioned at the array's first index, and each element in the array represents your maximum jump length at that position.
+
+Return true if you can reach the last index, or false otherwise.
+
+Example 1:
+
+Input: nums = [2,3,1,1,4]
+Output: true
+Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
+Example 2:
+
+Input: nums = [3,2,1,0,4]
+Output: false
+Explanation: You will always arrive at index 3 no matter what. Its maximum jump length is 0, which makes it impossible to reach the last index.
+
+**Time Complexity** = O(n)<br>
+**Space Complexity**= O(1)
+
 # Interesting Algorithms
 
 ## [Kadan's Algorithm](https://github.com/AdamAdham/Algorithms/blob/main/Kadane's%20Algorithm.py)
