@@ -546,6 +546,51 @@ Explanation: You will always arrive at index 3 no matter what. Its maximum jump 
 **Time Complexity** = O(n)<br>
 **Space Complexity**= O(1)
 
+### [45. Jump Game II](https://github.com/AdamAdham/Algorithms/blob/main/Top%20Interview%20Questions/Medium/45.%20Jump%20Game%20II.py)
+
+You are given a 0-indexed array of integers nums of length n. You are initially positioned at nums[0].
+
+Each element nums[i] represents the maximum length of a forward jump from index i. In other words, if you are at nums[i], you can jump to any nums[i + j] where:
+
+0 <= j <= nums[i] and
+i + j < n
+Return the minimum number of jumps to reach nums[n - 1]. The test cases are generated such that you can reach nums[n - 1].
+
+Example 1:
+
+Input: nums = [2,3,1,1,4]
+Output: 2
+Explanation: The minimum number of jumps to reach the last index is 2. Jump 1 step from index 0 to 1, then 3 steps to the last index.
+Example 2:
+
+Input: nums = [2,3,0,1,4]
+Output: 2
+
+**Time Complexity** = O(n)<br>
+**Space Complexity**= O(1)
+
+### [238. Product of Array Except Self](https://github.com/AdamAdham/Algorithms/blob/main/Top%20Interview%20Questions/Medium/238.%20Product%20of%20Array%20Except%20Self.py)
+
+#### Solved after hint 2
+
+Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+
+The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
+
+You must write an algorithm that runs in O(n) time and without using the division operation.
+
+Example 1:
+
+Input: nums = [1,2,3,4]
+Output: [24,12,8,6]
+Example 2:
+
+Input: nums = [-1,1,0,-3,3]
+Output: [0,0,9,0,0]
+
+**Time Complexity** = O(n)<br>
+**Space Complexity**= O(1)
+
 # Interesting Algorithms
 
 ## [Kadan's Algorithm](https://github.com/AdamAdham/Algorithms/blob/main/Kadane's%20Algorithm.py)
